@@ -1,0 +1,47 @@
+[
+  {
+    "companyName": "MyMovieTrip",
+    "jobTitle": "Full Stack Developer",
+    "appName": "MyMovieTrip -  App localizacion escenas peliculas",
+    "description": [
+      "Desarrollo completo de la API con Typescript, Node y PostgreSQL, también integración de APIS externas",
+      "Maquetación y funcionamiento web para administrar la app móvil con React y Redux ",
+      "Toda la parte de integración de la API y el funcionamiento de la app móvil con React Native y Redux"
+    ],
+    "tags": ["React.js", "Node.js", "PostgreSQL"],
+    "date": "Agosto 2021 - Enero 2022",
+    "location": "Remoto"
+  },
+  {
+    "companyName": "Akimad",
+    "jobTitle": "Full Stack Developer",
+    "appName": "Hobeen -  App de eficiencia energética",
+    "description": [
+      "Desarrollo completo de la API con Typescript, Node y PostgreSQL, también integración de APIS externas para el control de aparatos domóticos, creación de calendarios y obtención de datos.",
+      "Maquetación y funcionamiento web para administrar la app móvil con React y Redux ",
+      "Toda la parte de integración de la API y el funcionamiento de la app móvil con React Native y Redux"
+    ],
+    "tags": ["React.js", "Node.js", "PostgreSQL", "Typescript"],
+    "date": "Noviembre 2020 - Mayo 2021",
+    "location": "Remoto"
+  },
+  {
+    "companyName": "Getronics",
+    "jobTitle": "Full Stack Developer",
+    "appName": "Manifestaciones Ciudadanas y Estupefacientes",
+    "description": [
+      "Desarrollo de nuevas funcionalidades tanto en backend como en frontend con JavaScript, React, Redux, Node, MongoDB, Java y OracleDB"
+    ],
+    "tags": [
+      "React.js",
+      "Node.js",
+      "OracleDB",
+      "JavaScript",
+      "Java",
+      "MongoDB",
+      "Redux"
+    ],
+    "date": "Septiembre 2019 - Octubre 2020",
+    "location": "Presencial/Remoto"
+  }
+]
