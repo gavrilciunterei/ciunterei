@@ -9,105 +9,102 @@ function Index() {
 
   return (
     <Container refDownload={refContainer}>
-      <div className="flex justify-center content-center">
-        <div
-          className="border border-gray-300 rounded-sm shadow-lg py-10 px-10  mt-10 mb-10 max-w-7xl"
-          ref={refContainer}
-        >
-          <main className="flex">
-            <div className="w-max">
-              <div className="flex justify-between items-center">
-                <div>
-                  <div className="bg-cover bg-no-repeat rounded-full h-52 w-52"></div>
-                </div>
-                <div className="grid justify-items-end">
-                  <h1 className="text-7xl font-extrabold">GAVRIL CIUNTEREI</h1>
-                  <p className="text-xl mt-5">Full-Stack Developer</p>
-                </div>
-              </div>
-              <section>
-                {/* <!-- work experiences --> */}
-                <div className="mt-6 pb-1 border-b flex flex-row items-center">
-                  <BiBriefcase size={30} className="mr-3" />
-                  <h2 className="text-2xl font-semibold ">Work Experiences</h2>
-                </div>
-                <ul className="mt-2 ">
-                  {work.map((data, index) => {
-                    return (
-                      <li className="pt-2" key={index + 'job'}>
-                        <div className="flex justify-between">
-                          <p className="text-base font-bold">
-                            {data.companyName}
-                          </p>
-                          <p className="text-sm"> {data.date}</p>
-                        </div>
+      <section className=" container mx-auto px-5 mt-10">
+        <div className="flex flex-col items-center py-8 ">
+          <div className="flex flex-col w-full mb-12 text-left ">
+            <div className="w-full mx-auto lg:w-3/4 border border-gray-300 rounded-sm shadow-lg ">
+              <div ref={refContainer} className="p-10">
+                <section className="flex justify-end items-center ">
+                  <div className="grid justify-items-end">
+                    <h1 className="text-4xl xl:text-5xl font-extrabold">
+                      GAVRIL CIUNTEREI
+                    </h1>
+                    <p className="text-xl mt-5">Full-Stack Developer</p>
+                  </div>
+                </section>
+                <section>
+                  {/* <!-- work experiences --> */}
+                  <div className="mt-6 pb-1 border-b flex flex-row items-center">
+                    <BiBriefcase size={30} className="mr-3" />
+                    <h2 className="text-2xl font-semibold ">
+                      Work Experiences
+                    </h2>
+                  </div>
+                  <ul className="mt-2 ">
+                    {work.map((data, index) => {
+                      return (
+                        <li className="pt-2" key={index + 'job'}>
+                          <div className="flex justify-between">
+                            <p className="text-base font-bold">
+                              {data.companyName}
+                            </p>
+                            <p className="text-sm"> {data.date}</p>
+                          </div>
 
-                        <div className="flex justify-between">
-                          <p className="text-base"> {data.jobTitle}</p>
-                          <p className="text-xs"> {data.appName}</p>
-                        </div>
+                          <div className="flex justify-between">
+                            <p className="text-base"> {data.jobTitle}</p>
+                            <p className="text-xs"> {data.appName}</p>
+                          </div>
 
-                        <ul className="list-disc ml-5 max-w-lg">
-                          {data.description.map((description, inde) => {
-                            return (
-                              <li key={inde + 'description'}>
-                                <p className="text-justify text-xs">
-                                  {description}
-                                </p>
-                              </li>
-                            );
-                          })}
-                        </ul>
+                          <ul className="list-disc ml-5 max-w-lg">
+                            {data.description.map((description, inde) => {
+                              return (
+                                <li key={inde + 'description'}>
+                                  <p className="text-justify text-xs">
+                                    {description}
+                                  </p>
+                                </li>
+                              );
+                            })}
+                          </ul>
 
-                        <div className="flex justify-between my-1">
-                          <div className="flex">
+                          <div className="container  max-w-2xl flex flex-wrap my-1 ">
                             {data.tags.map((tag, ind) => {
                               return (
-                                <span
-                                  className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded"
-                                  key={ind + 'tag'}
-                                >
-                                  {tag}
-                                </span>
+                                <div key={ind + 'tag'}>
+                                  <h3 className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded ">
+                                    {tag}
+                                  </h3>
+                                </div>
                               );
                             })}
                           </div>
-                        </div>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </section>
-              <section>
-                {/* <!-- education --> */}
-                <div className="mt-6 pb-1 border-b flex flex-row items-center">
-                  <BiBookOpen size={30} className="mr-3" />
-                  <h2 className="text-2xl font-semibold ">Education</h2>
-                </div>
-                <ul className="mt-2">
-                  {education.map((data, index) => {
-                    return (
-                      <li className="pt-2" key={index}>
-                        <div className="flex justify-between">
-                          <p className="text-base font-semibold">
-                            {data.school}
-                          </p>
-                          <p className="text-sm"> {data.date}</p>
-                        </div>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </section>
+                <section>
+                  {/* <!-- education --> */}
+                  <div className="mt-6 pb-1 border-b flex flex-row items-center">
+                    <BiBookOpen size={30} className="mr-3" />
+                    <h2 className="text-2xl font-semibold ">Education</h2>
+                  </div>
+                  <ul className="mt-2">
+                    {education.map((data, index) => {
+                      return (
+                        <li className="pt-2" key={index}>
+                          <div className="flex justify-between">
+                            <p className="text-base font-semibold">
+                              {data.school}
+                            </p>
+                            <p className="text-sm"> {data.date}</p>
+                          </div>
 
-                        <div className="flex justify-between">
-                          <p className="text-sm">{data.title}</p>
-                          <p className="text-sm">{data.city}</p>
-                        </div>
-                      </li>
-                    );
-                  })}
-                </ul>
-              </section>
+                          <div className="flex justify-between">
+                            <p className="text-sm">{data.title}</p>
+                            <p className="text-sm">{data.city}</p>
+                          </div>
+                        </li>
+                      );
+                    })}
+                  </ul>
+                </section>
+              </div>
             </div>
-          </main>
+          </div>
         </div>
-      </div>
+      </section>
     </Container>
   );
 }

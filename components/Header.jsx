@@ -9,11 +9,10 @@ function Header({ refDownload }) {
     savePDF(
       html,
       {
-        scale: 0.6,
+        scale: 0.7,
         paperSize: 'A4',
-        margi: '0cm',
-        fileName: 'report.pdf',
-        margin: 4,
+        fileName: 'ciunterei.pdf',
+        margin: '0cm',
       },
       () => console.log('created and exported')
     );
@@ -24,7 +23,7 @@ function Header({ refDownload }) {
       <div className="mb-2 ">
         <h1>ciunterei.com</h1>
       </div>
-      <div>
+      <div className="justify-center flex">
         <button
           className=""
           onClick={() => {
