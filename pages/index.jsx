@@ -13,7 +13,10 @@ function Index() {
         <div className="flex flex-col items-center py-8 ">
           <div className="flex flex-col w-full mb-12 text-left ">
             <div className="w-full mx-auto lg:w-3/4 border border-gray-300 rounded-sm shadow-lg ">
-              <div ref={refContainer} className="p-10">
+              <div
+                ref={refContainer}
+                className="p-2 sm:p-2 md:p-3 lg:p-4 xl:p-5 2xl:p-7  "
+              >
                 <section className="flex justify-end items-center ">
                   <div className="grid justify-items-end">
                     <h1 className="text-4xl xl:text-5xl font-extrabold">
@@ -30,6 +33,7 @@ function Index() {
                       Work Experiences
                     </h2>
                   </div>
+
                   <ul className="mt-2 ">
                     {work.map((data, index) => {
                       return (
@@ -62,7 +66,7 @@ function Index() {
                             {data.tags.map((tag, ind) => {
                               return (
                                 <div key={ind + 'tag'}>
-                                  <h3 className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded ">
+                                  <h3 className="bg-gray-600 text-white px-2 py-1 ml-1 text-xs rounded mb-1">
                                     {tag}
                                   </h3>
                                 </div>
