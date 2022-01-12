@@ -1,5 +1,6 @@
 import Container from '../components/Container';
-import { BiBriefcase, BiBookOpen } from 'react-icons/bi';
+import { BiBriefcase, BiBookOpen, BiPhone } from 'react-icons/bi';
+import { IoMailOutline } from 'react-icons/io5';
 import education from '../static/education.json';
 import work from '../static/work.json';
 import { useRef } from 'react';
@@ -9,7 +10,7 @@ function Index() {
 
   return (
     <Container refDownload={refContainer}>
-      <section className=" container mx-auto px-5 mt-10">
+      <section className="container mx-auto px-5 mt-10">
         <div className="flex flex-col items-center py-8 ">
           <div className="flex flex-col w-full mb-12 text-left ">
             <div className="w-full mx-auto lg:w-3/4 border border-gray-300 rounded-sm shadow-lg ">
@@ -22,7 +23,15 @@ function Index() {
                     <h1 className="text-4xl xl:text-5xl font-extrabold">
                       GAVRIL CIUNTEREI
                     </h1>
-                    <p className="text-xl mt-5">Full-Stack Developer</p>
+                    <p className="text-xl mt-5">Full Stack Developer</p>
+                    <div className="flex flex-row  justify-center items-center">
+                      <BiPhone size={20} className="mr-3 " />
+                      <p className="text-sm">+34 747 856 889</p>
+                    </div>
+                    <div className="flex flex-row justify-center items-center">
+                      <IoMailOutline size={20} className="mr-3" />
+                      <p className="text-sm ">gavriltaller@gmail.com</p>
+                    </div>
                   </div>
                 </section>
                 <section>
@@ -42,7 +51,7 @@ function Index() {
                             <p className="text-base font-bold">
                               {data.companyName}
                             </p>
-                            <p className="text-sm"> {data.date}</p>
+                            <p className="text-sm">{data.date}</p>
                           </div>
 
                           <div className="flex justify-between">

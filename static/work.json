@@ -2,9 +2,22 @@
   {
     "companyName": "MyMovieTrip",
     "jobTitle": "Full Stack Developer",
-    "appName": "MyMovieTrip -  App localizacion escenas peliculas",
-    "description": [" ", " ", " "],
-    "tags": ["React.js", "Node.js", "PostgreSQL"],
+    "appName": "MyMovieTrip -  App localización escenas películas",
+    "description": [
+      "Reconstrucción completa de app (react native) y actualización de componentes. Mejora rendimiento app para evitar la sobrecarga de memoria. Funcionalidades como sistema red social, buscador películas/escenas/rutas, mapa con visualización de contenido, analíticas propias, login google/apple etc.",
+      "Reconstrucción API y mejora de seguridad",
+      "Blog con next.js con editor desde una intranet (react.js) con posibilidad de añadir anuncios personalizados por el editor (amazon, hbo, booking, etc). Recuperación de contenido desde API propia",
+      "Despliegue en AppStore y PlayStore, despliegue continuo con Google Cloud."
+    ],
+
+    "tags": [
+      "React.js",
+      "React Native",
+      "Node.js",
+      "PostgreSQL",
+      "Next.js",
+      "Redux"
+    ],
     "date": "Agosto 2021 - Enero 2022",
     "location": "Remoto"
   },
@@ -13,18 +26,25 @@
     "jobTitle": "Full Stack Developer",
     "appName": "Hobeen -  App de eficiencia energética",
     "description": [
-      "Desarrollo completo de la API con Typescript, Node y PostgreSQL, también integración de APIS externas para el control de aparatos domóticos, creación de calendarios y obtención de datos.",
-      "Maquetación y funcionamiento web para administrar la app móvil con React y Redux ",
-      "Toda la parte de integración de la API y el funcionamiento de la app móvil con React Native y Redux"
+      "Desarrollo completo de la API con Typescript, Node y PostgreSQL, también integración de APIS externas para el control de aparatos domóticos, creación de calendarios y obtención de datos",
+      "Maquetación y conexión a API de web para administrar la app móvil con React.js y Redux",
+      "Toda la parte de integración de la API y el funcionamiento de la app móvil con React Native y Redux. También maquetación de gráficos y algunas pantallas"
     ],
-    "tags": ["React.js", "Node.js", "PostgreSQL", "Typescript"],
+    "tags": [
+      "React.js",
+      "React Native",
+      "Node.js",
+      "PostgreSQL",
+      "Typescript",
+      "Redux"
+    ],
     "date": "Noviembre 2020 - Mayo 2021",
     "location": "Remoto"
   },
   {
     "companyName": "Getronics",
     "jobTitle": "Full Stack Developer",
-    "appName": "Manifestaciones Ciudadanas y Estupefacientes",
+    "appName": "Manifestaciones y Estupefacientes - Apps internas",
     "description": [
       "Desarrollo de nuevas funcionalidades tanto en backend como en frontend con JavaScript, React, Redux, Node, MongoDB, Java y OracleDB"
     ],

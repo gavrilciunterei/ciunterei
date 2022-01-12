@@ -5,7 +5,13 @@ module.exports = {
     './components/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        display: ['DejaVu Sans', 'Lato', 'sans-serif'],
+        sans: ['DejaVu Sans', 'Lato', 'sans-serif'],
+        body: ['DejaVu Sans', 'Lato', 'sans-serif'],
+      },
+    },
   },
   plugins: [],
 };
