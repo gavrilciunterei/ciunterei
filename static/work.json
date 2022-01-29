@@ -18,6 +18,9 @@
       "Next.js",
       "Redux",
       "TailwindCSS",
+      "Sequelize",
+      "Firebase",
+      "Google Cloud",
       "Git"
     ],
     "date": "Agosto 2021 - Enero 2022",
@@ -39,6 +42,9 @@
       "PostgreSQL",
       "Typescript",
       "Redux",
+      "Bookshelf.js",
+      "Firebase",
+      "Google Cloud",
       "Git"
     ],
     "date": "Noviembre 2020 - Mayo 2021",
