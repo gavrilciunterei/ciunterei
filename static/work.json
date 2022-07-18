@@ -1,8 +1,29 @@
 [
   {
+    "companyName": "atSistemas",
+    "jobTitle": "Frontend Developer",
+    "appName": ["Carglass"],
+    "description": [
+      "Desarrollo de la parte frontal para nueva aplicación interna de gestión de talleres en una compañía a nivel nacional.",
+      "Implementación nuevas funcionalidades para aplicación gestión de seguros."
+    ],
+
+    "tags": [
+      "React.js",
+      "Recoil.js",
+      "Typescript",
+      "Cognito",
+      "Chakra-ui",
+      "Git",
+      "Pnpm"
+    ],
+    "date": "Febrero 2022 - Actualidad",
+    "location": "Remoto"
+  },
+  {
     "companyName": "MyMovieTrip",
     "jobTitle": "Full Stack Developer",
-    "appName": "MyMovieTrip -  App localización escenas películas",
+    "appName": ["MyMovieTrip -  App localización escenas películas"],
     "description": [
       "Reconstrucción completa de app (React Native) y actualización de componentes. Mejora rendimiento app para evitar la sobrecarga de memoria. Funcionalidades como sistema red social, buscador películas/escenas/rutas, mapa con visualización de contenido, analíticas propias, login google/apple etc.",
       "Reconstrucción API y mejora de seguridad.",
@@ -29,7 +50,7 @@
   {
     "companyName": "Akimad",
     "jobTitle": "Full Stack Developer",
-    "appName": "Hobeen -  App de eficiencia energética",
+    "appName": ["Hobeen -  App de eficiencia energética"],
     "description": [
       "Desarrollo completo de la API con Typescript, Node y PostgreSQL, también integración de APIS externas para el control de aparatos domóticos, creación de calendarios y obtención de datos.",
       "Maquetación y conexión a API de web para administrar la app móvil con React.js y Redux.",
@@ -44,7 +65,6 @@
       "Redux",
       "Bookshelf.js",
       "Firebase",
-      "Google Cloud",
       "Git"
     ],
     "date": "Noviembre 2020 - Mayo 2021",
@@ -53,7 +73,10 @@
   {
     "companyName": "Getronics",
     "jobTitle": "Full Stack Developer",
-    "appName": "Manifestaciones y Estupefacientes - Apps internas",
+    "appName": [
+      "Manifestaciones - App interna",
+      "Estupefacientes - App interna"
+    ],
     "description": [
       "Desarrollo de nuevas funcionalidades tanto en backend como en frontend con JavaScript, React, Redux, Node, MongoDB, Java y OracleDB."
     ],
