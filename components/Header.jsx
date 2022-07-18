@@ -1,4 +1,3 @@
-import { MdDarkMode, MdOutlineDarkMode } from 'react-icons/md';
 import { savePDF } from '@progress/kendo-react-pdf';
 
 function Header({ refDownload }) {
@@ -21,23 +20,10 @@ function Header({ refDownload }) {
         <h1>ciunterei.com</h1>
       </div>
       <div className="justify-center flex">
-        {/* <button
-          className=""
-          onClick={() => {
-            setTheme(theme === 'light' ? 'dark' : 'light');
-          }}
-        >
-          {theme === 'light' ? (
-            <MdOutlineDarkMode size={30} />
-          ) : (
-            <MdDarkMode size={30} />
-          )}
-        </button> */}
-
         <button
           type="button"
           onClick={() => createPdf(refDownload.current)}
-          className="ml-5 border p-3 border-gray-300"
+          className="ml-5 b∏order p-3 border-gray-300"
         >
           Export PDF
         </button>
